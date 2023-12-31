@@ -1,0 +1,7 @@
+a=int(input())
+b=int(input())
+step=int(input())
+s=0
+for num in range(a,b+1,step):
+    s=s+num
+print(s)

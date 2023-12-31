@@ -1,0 +1,10 @@
+a=int(input())
+b=int(input())
+s=0
+if a%2==0:
+    for x in range(a,b+1,2):
+        s=s+x
+else:
+    for x in range(a+1,b+1,2):
+        s=s+x
+print(s)

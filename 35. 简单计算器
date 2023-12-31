@@ -1,0 +1,20 @@
+a=int(input())
+b=int(input())
+p=input()
+if ord(p)==42:
+    s=a*b
+    print(s)
+elif ord(p)==43:
+    s=a+b
+    print(s)
+elif ord(p)==45:
+    s=a-b
+    print(s)
+elif ord(p)==47:
+    if b==0:
+        print("Divided by zero!")
+    else:
+        s=a/b
+        print(int(s))
+else:
+    print("Invalid operator!")

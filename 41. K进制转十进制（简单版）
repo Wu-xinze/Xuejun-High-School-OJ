@@ -1,0 +1,7 @@
+a=input()
+k=int(input())
+b=a.split(",")
+ans=0
+for i in range(len(b)):
+    ans=int(b[i])*k**(len(b)-i-1)+ans
+print(ans)

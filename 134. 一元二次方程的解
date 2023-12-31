@@ -1,0 +1,23 @@
+a=int(input())
+b=int(input())
+c=int(input())
+x1=0
+x2=0
+if a==0:
+    if b!=0 and c!=0:
+        x1=-c/b
+        print(x1)
+    elif b==0 and c!=0:
+        print("无解！")
+    elif b==0 and c==0:
+        print("无解！")
+elif a!=0:
+    if b**2-4*a*c>0:
+        x1=(-b+(b**2-4*a*c)**0.5)/(2*a)
+        x2=(-b-(b**2-4*a*c)**0.5)/(2*a)
+        print("x1=",x1," x2=",x2)
+    elif b**2-4*a*c==0:
+        x1=(-b+(b**2-4*a*c)**0.5)/(2*a)
+        print(x1)
+    elif b**2-4*a*c<0:
+        print("无解！")

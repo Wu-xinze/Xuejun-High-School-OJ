@@ -1,0 +1,6 @@
+x=input()
+y=input()
+z=input()
+print("name:"+x)
+print("age:"+y)
+print("NO:"+z)

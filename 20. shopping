@@ -1,0 +1,14 @@
+a=input()
+b=a.split(",")
+if float(b[1])>=8000:
+    sum=float(b[0])*0.6
+elif float(b[1])>=6000:
+    sum=float(b[0])*0.7
+elif float(b[1])>=4000:
+    sum=float(b[0])*0.8
+elif float(b[1])>=2000:
+    sum=float(b[0])*0.9
+else:
+    sum=float(b[0])
+sum="{:.2f}".format(sum)
+print(sum)

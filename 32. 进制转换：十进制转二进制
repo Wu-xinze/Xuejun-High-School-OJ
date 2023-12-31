@@ -1,0 +1,9 @@
+a=int(input())
+ans=""
+ans=str(a%2)
+s=a
+while s//2!=0:
+    s=s//2
+    a=s%2
+    ans=str(a)+ans
+print(ans)

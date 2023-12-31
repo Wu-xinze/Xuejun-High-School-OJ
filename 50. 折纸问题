@@ -1,0 +1,7 @@
+h=float(input())
+count=0
+i=0.005
+while i<h:
+    i=i*2
+    count=count+1
+print(count)

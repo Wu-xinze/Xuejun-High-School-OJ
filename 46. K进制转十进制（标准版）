@@ -1,0 +1,10 @@
+n=input()
+k=int(input())
+s=0
+dic={"A":10,"B":11,"C":12,"D":13,"E":14,"F":15}
+for i in range(len(n)):
+    if 48<=ord(n[i])<=57:
+        s=int(n[i])*k**(len(n)-i-1)+s
+    else:
+        s=s+dic[n[i]]*k**(len(n)-i-1)
+print(s)

@@ -1,0 +1,12 @@
+s=input()
+c=0
+for i in s:
+    if i=="A":
+        c=c+10
+    elif i=="B":
+        c=c+9
+    elif i=="C":
+        c=c+7
+    elif i=="D":
+        c=c+4
+print(c)

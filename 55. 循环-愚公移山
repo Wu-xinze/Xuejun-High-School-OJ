@@ -1,0 +1,9 @@
+k=int(input())
+s=0
+b=0.2
+c=1
+while s<=100000000:
+    s=float(s+b)
+    b=b*k
+    c=c+1
+print(c-1)

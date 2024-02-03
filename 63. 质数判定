@@ -1,0 +1,21 @@
+def zhishu(n):
+    j=2
+    flag=True
+    if n==1:
+        flag=False
+    else:
+        while j<n:
+            if n%j==0:
+                flag=False
+                break
+            j=j+1
+    return flag
+
+a,b=(input().split())
+a=int(a)
+b=int(b)
+i=a
+while i<=b:
+    if zhishu(i):
+        print(i,end=" ")
+    i=i+1

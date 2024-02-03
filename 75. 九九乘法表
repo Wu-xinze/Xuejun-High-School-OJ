@@ -1,0 +1,17 @@
+a=1
+while a<=9:
+    j=1
+    sum=j*a
+    while j<a:
+        sum=j*a
+        if sum<10:
+            print(str(j)+"*"+str(a)+"=",sum,end=" ")
+        else:
+            print(str(j)+"*"+str(a)+"="+str(sum),end=" ")
+        j=j+1
+    sum=j*a
+    if sum<10:
+        print(str(j)+"*"+str(a)+"=",sum)
+    else:
+        print(str(j)+"*"+str(a)+"="+str(sum))
+    a=a+1
